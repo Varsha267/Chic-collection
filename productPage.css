@@ -1,0 +1,189 @@
+#Womens {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    gap: 1%;
+    margin-top: 130px;
+    padding-left: 4%;
+  }
+  .loraf13 {
+    font-size: 14px;
+    overflow: hidden;
+  }
+  .w600 {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .f12 {
+    font-size: 12px;
+  }
+  .f13 {
+    font-size: 13px;
+  }
+  .f14 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .f16 {
+    font-size: 16px;
+  }
+  .f18 {
+    font-size: 18px;
+  }
+  .f24 {
+    font-size: 24px;
+  }
+  .f36 {
+    font-size: 36px;
+  }
+  #mens > div:nth-child(1) {
+    padding-left: 40px;
+  }
+  #filters {
+    height: 700px;
+  }
+  #data {
+
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 20px;
+    margin-bottom: 60px;
+    cursor: pointer;
+  }
+  #quickView {
+    background-color: #ffffff;
+    color: #2c4154;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    opacity: 75%;
+    width: 100%;
+    height: 45px;
+    z-index: 5;
+    box-sizing: border-box;
+    padding-top: 8px;
+    display: none;
+    margin-top: -45px;
+    cursor: pointer;
+  }
+  img {
+    width: 100%;
+  }
+  #value {
+    display: flex;
+    margin-left: 85px;
+  }
+  .anchor {
+    text-decoration: none;
+    color: inherit;
+  }
+  #select {
+    width: 12%;
+    height: 30px;
+    margin-left: 5px;
+  }
+  #select-tab {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    display: flex;
+  }
+  #select-tab > select {
+    width: 150px;
+  }
+  #refine {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  #refineby {
+    display: flex;
+    cursor: pointer;
+  }
+  #darrow {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+  #darr {
+    transform: rotate(180deg);
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+  #list > div > div {
+    font-size: 22px;
+    margin: 15px 25px 0px 15px;
+    cursor: pointer;
+  }
+  #list > div > div > div > label {
+    cursor: pointer;
+  }
+  #border {
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 10px;
+  }
+  #border > div:nth-child(1) {
+    display: flex;
+  }
+  #border > div:nth-child(1) > div:nth-child(1) {
+    margin-right: 12px;
+  }
+  .filterHeader {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+  }
+
+  .filterOptions {
+    font-size: 15px;
+    color: black;
+    font-weight: 300;
+  }
+  #border > div:nth-child(2) {
+    margin-left: 25px;
+  }
+  #border > {
+    margin-left: 25px;
+    font-size: 22px;
+  }
+
+  #womenheader {
+    text-align: center;
+    font-size: 12px;
+    color: #a7a7a7;
+  }
+  #ethnicheader {
+    text-align: center;
+    color: #333333;
+    font-size: 36px;
+  }
+  #contentheader {
+    text-align: justify;
+    color: #666666;
+    font-size: 90%;
+    line-height: -1%;
+    margin: 0 10%;
+    margin-bottom: 10px;
+  }
+  #content {
+    height: 300px;
+  }
+  .alignment {
+    margin-left: 70%;
+  }
+  #pagination > div {
+    flex-basis: 30px;
+    text-align: center;
+    border: 1px solid gray;
+  }
+  #pagination > div:nth-child(2) {
+    margin-left: 10px;
+    flex-basis: 40px;
+    margin-right: 10px;
+  }
+  img{
+    cursor: pointer;
+    
+  }
