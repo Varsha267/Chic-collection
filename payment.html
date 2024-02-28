@@ -1,117 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Payment getway</title>
-	<link rel="stylesheet" type="text/css" href="payment.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" type="text/css" href="payment.css">
 </head>
 <body>
-<header>
-	<div class="container">
-		<div class="left">
-			<h3>BILLING ADDRESS</h3>
-			<form>
-				Full name
-				<input type="text" name="" placeholder="Enter name">
-				Email
-				<input type="text" name="" placeholder="Enter email">
+    <header>
+        <div class="container">
+            <div class="left">
+                <h3>BILLING ADDRESS</h3>
+                <form>
+                    Full name
+                    <input type="text" name="fullName" placeholder="Enter name">
 
-				Address
-				<input type="text" name="" placeholder="Enter address">
-				
-				City
-				<input type="text" name="" placeholder="Enter City">
-				<div id="zip">
-					<label>
-						State
-						<select>
-							<option>Choose State..</option>
-							<option>andama and nicobar island</option>
-                        <option>andhra pradesh</option>
-                        <option>assam</option>
-                        <option>bihar</option>
-                        <option>chandigarh</option>
-                        <option>chandigarh</option>
-                        <option>dadra and nagar haveli</option>
-                        <option>daman and diu</option>
-                        <option>delhi</option>
-                        <option>goa</option>
-                        <option>gujarat</option>
-                        <option>haryana</option>
-                        <option>himachal pradesh</option>
-                        <option>jharkhand</option>
-                        <option>j&k</option>
-                        <option>karnataka</option>
-                        <option>kerala</option>
-                        <option>ladakh</option>
-                        <option>lakshadeep</option>
-                        <option>madhya pradesh</option>
-                        <option>manipur</option>
-                        <option>meghalaya</option>
-                        <option>mizoram</option>
-                        <option>nagaland</option>
-                        <option>odisha</option>
-                        <option>pondicherry</option>
-                        <option>punjab</option>
-                        <option>rajasthan</option>
-                        <option>sikkim</option>
-                        <option>tamil nadu</option>
-                        <option>telangana</option>
-                        <option>tripura</option>
-                        <option>uttarakhand</option>
-                        <option>uttar pradesh</option>
-                        <option>west bengal</option>
-						</select>
-					</label>
-						<label>
-						Zip code
-						<input type="number" name="" placeholder="Zip code">
-					</label>
-				</div>
-			</form>
-		</div>
-		<div class="right">
-			<h3>PAYMENT</h3>
-			<input type="radio" name="Payments" id="Cash on Delivery" value="Cash on Delivery">
-    		<label for="Cash on Delivery">Cash on Delivery</label>
-    <br><hr>
+                    Email
+                    <input type="text" name="email" placeholder="Enter email">
 
-    <input type="radio" name="Payments" id="Credit/Debit/ATM Card" value="Credit/Debit/ATM Card">
-    <label for="Credit/Debit/ATM Card">"Credit/Debit/ATM Card"</label>
-		
-			<form>
-				Accepted Card <br>
-				<img src="image/100.jpeg" width="100">
-				<img src="image/200.jpeg" width="50">
-				<br><br>
+                    Address
+                    <input type="text" name="address" placeholder="Enter address">
 
-				Credit card number
-			<input type="number" name="" placeholder="Enter card number" required>
-				
-				Exp month
-				<input type="text" name="" placeholder="Enter Month" required>
-				<div id="zip">
-					<label>
-						Exp year
-						<select>
-							<option>Choose Year..</option>
-							<option>2022</option>
-							<option>2023</option>
-							<option>2024</option>
-							<option>2025</option>
-						</select>
-					</label>
-						<label>
-						CVV
-						<input type="number" name="" placeholder="CVV">
-					</label>
-				</div>
-			</form>
-				<a href="submit.html" target="_self">
-				<input type="submit" name="" value="Proceed to Checkout"></a>
-		</div>
-	</div>
-</header>
+                    City
+                    <input type="text" name="city" placeholder="Enter City">
+
+                    <div id="zip">
+                        <label>
+                            State
+                            <select name="state">
+                                <option>Choose State..</option>
+                                <option>Andaman and Nicobar Islands</option>
+                                <option>Andhra Pradesh</option>
+                                <option>Arunachal Pradesh</option>
+                                <option>Assam</option>
+                                <option>Bihar</option>
+                                <option>Chandigarh</option>
+                                <option>Chhattisgarh</option>
+                                <option>Dadra and Nagar Haveli</option>
+                                <option>Daman and Diu</option>
+                                <option>Delhi</option>
+                                <option>Goa</option>
+                                <option>Gujarat</option>
+                                <option>Haryana</option>
+                                <option>Himachal Pradesh</option>
+                                <option>Jharkhand</option>
+                                <option>Karnataka</option>
+                                <option>Kerala</option>
+                                <option>Ladakh</option>
+                                <option>Lakshadweep</option>
+                                <option>Madhya Pradesh</option>
+                                <option>Maharashtra</option>
+                                <option>Manipur</option>
+                                <option>Meghalaya</option>
+                                <option>Mizoram</option>
+                                <option>Nagaland</option>
+                                <option>Odisha</option>
+                                <option>Puducherry</option>
+                                <option>Punjab</option>
+                                <option>Rajasthan</option>
+                                <option>Sikkim</option>
+                                <option>Tamil Nadu</option>
+                                <option>Telangana</option>
+                                <option>Tripura</option>
+                                <option>Uttarakhand</option>
+                                <option>Uttar Pradesh</option>
+                                <option>West Bengal</option>
+                            </select>
+                        </label>
+                        <label>
+                            Zip code
+                            <input type="number" name="zipCode" placeholder="Zip code">
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <h3>PAYMENT</h3>
+                <input type="radio" name="Payments" id="cashOnDelivery" value="Cash on Delivery">
+                <label for="cashOnDelivery">Cash on Delivery</label>
+                <br><hr>
+
+                <input type="radio" name="Payments" id="creditCard" value="Credit/Debit/ATM Card">
+                <label for="creditCard">Credit/Debit/ATM Card</label>
+
+                <div id="cardDetails" style="display: none;">
+                    <form>
+                        Accepted Card <br>
+                        <img src="image/100.jpeg" width="100">
+                        <img src="image/200.jpeg" width="50">
+                        <br><br>
+
+                        Credit card number
+                        <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter card number" required><br>
+                        
+                        Exp month
+                        <input type="text" id="expMonth" name="expMonth" placeholder="Enter Month" required>
+                        
+                        <div id="zip">
+                            <label>
+                                Exp year
+                                <select id="expYear" name="expYear">
+                                    <option>Choose Year..</option>
+                                    <option>2022</option>
+                                    <option>2023</option>
+                                    <option>2024</option>
+                                    <option>2025</option>
+                                </select>
+                            </label>
+                            <label>
+                                CVV
+                                <input type="number" id="cvv" name="cvv" placeholder="CVV" required>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                
+                <input type="button" onclick="checkout()" value="Proceed to Checkout" id="proceedToCheckout">
+            </div>
+        </div>
+		<script>
+            function checkout() {
+                var paymentOption = document.querySelector('input[name="Payments"]:checked');
+
+                if (!paymentOption) {
+                    alert('Please select a payment option.');
+                    return;
+                }
+
+                if (paymentOption.value === 'Cash on Delivery') {
+                    // No need for alert; directly redirect
+                    window.location.href = 'submit.html';
+                } else if (paymentOption.value === 'Credit/Debit/ATM Card') {
+                    var cardNumber = document.getElementById('cardNumber').value;
+                    var expMonth = document.getElementById('expMonth').value;
+                    var expYear = document.getElementById('expYear').value;
+                    var cvv = document.getElementById('cvv').value;
+
+                    // Perform validation on card details
+                    if (cardNumber && expMonth && expYear && cvv) {
+                        // No need for alert; directly redirect
+                        window.location.href = 'submit.html';
+                    } else {
+                        alert('Please fill in all required card details.');
+                    }
+                }
+            }
+
+            // Show/hide card details form based on payment option
+            document.getElementById('cashOnDelivery').addEventListener('change', function () {
+                document.getElementById('cardDetails').style.display = 'none';
+            });
+
+            document.getElementById('creditCard').addEventListener('change', function () {
+                document.getElementById('cardDetails').style.display = 'block';
+            });
+        </script>
+    </header>
 </body>
 </html>
