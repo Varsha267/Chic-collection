@@ -10,7 +10,7 @@ header{
 }
 .container{
 	background: white;
-	max-width: 800px;
+	max-width: 1000px;
 	min-height: 500px;
 	display: flex;
 	justify-content:space-between;
